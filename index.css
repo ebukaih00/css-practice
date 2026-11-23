@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DADFE0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 100px;
+    gap: 16px;
+    background-color: #FBFBFB;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    gap: 16px;
+}
+
+p {
+    color: #475D65;
+}
+
+a {
+    color: #106E6A;
+}
+
+h1 {
+    font-family: "IBM Plex Serif", serif;
+    color: #0B2833;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: fit-content;
+
+}
+
+
+input {
+    padding: 8px 16px;
+    border: 1px solid #DADFE0;
+    border-radius: 8px;
+    flex: 1;
+    width: 250px;
+
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 12px;
+    width: 100%;
+}
+
+.leading-actions {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 60px;
+    border: 1px solid #DEE1E3;
+    color: #0B2833;
+    background: none;
+    width: fit-content;
+    height: fit-content;
+    color: #0B2833;
+}
+
+
+.btn:hover {
+    background-color: #EAE9E5;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    border: 1px solid #DADFE0;
+    width: 100%;
+    max-width: 406px;
+    border-radius: 12px;
+    gap: 16px;
+
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1;
+    min-width: 0;
+
+}
+
+.card-title {
+    font-weight: 600;
+    color: #0B2833;
+}
+
+.card-subtext {
+    font-size: 14px;
+    color: #475D65;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.material-symbols-outlined {
+    color: #716F6E;
+}
